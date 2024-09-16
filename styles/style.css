@@ -1106,6 +1106,40 @@ footer{
             }
         }
     }
+    .classes {
+        & .container {
+            .courses {
+                display: flex;
+                flex-wrap: wrap;
+            }
+        }
+    }
+    .events {
+        & .container {
+            .content {
+                display: flex;
+                justify-content: space-between;
+                gap: 50px;
+                width: 100%;
+            }
+        }
+    }
+    .plans {
+        & .container {
+            .all-pkgs {
+                display: flex;
+                gap: 40px;
+                text-align: center;
+                align-items: center;
+                width: 100%;
+                & #pkg {
+                    #circle {
+                        width: 30%;
+                    }
+                }
+            }
+        }
+    }
 }
 @media screen and (max-width:750px) {
     header {
